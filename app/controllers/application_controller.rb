@@ -1,7 +1,6 @@
 class ApplicationController < ActionController::Base
-
-
-  helper_method :current_user
+include SessionsHelper
+helper_method :current_user
 
 protected
   #this is where we create a method that returns a logged in user.

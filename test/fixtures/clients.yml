@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user: 
+  name: MyString
+  location: MyText
+  city: MyText
+  wallspace: MyString
+  bid: 
+
+two:
+  user: 
+  name: MyString
+  location: MyText
+  city: MyText
+  wallspace: MyString
+  bid: 

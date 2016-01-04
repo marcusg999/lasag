@@ -1,34 +1,26 @@
 class UsersController < ApplicationController
 
-
-  def index
-    @users = User.all
-
+  def show
+    @user = User.find(params[:id])
   end
 
   def new
     @user = User.new
-
   end
 
-  def create
-
-      if User.new(user_params).save
-        #redirect to signed in
-        flash[:success] = 'you are registered'
-        redirect_to users_path
-      else
-
-        flash[:error] = 'registration has failed'
-
-        redirect_to new_user_path
-
-      end
+    def create
+    @user = User.new(user_params)
+    if @user.save
+      redirect_to @user
+    else
+      render 'new'
+    end
   end
 
-private
+  private
 
-  def user_params
-    params.require(:user).permit(:email,:password,:password_confirmation)
-  end
+    def user_params
+      params.require(:user).permit(:name, :email, :password,
+                                   :password_confirmation)
+    end
 end

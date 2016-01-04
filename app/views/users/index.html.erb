@@ -1,16 +1,15 @@
-<h2>LA StreetArt Gallery Presents</h2>
-<h1>Writers Bench Collective</h1>
 
+
+<div class="center jumbotron">
+  <h2>LA StreetArt Gallery Presents</h2>
+  <h1>Writers Bench Collective</h1>
+
+  <a href="users/new", class="btn btn-lg btn-primary" >Register as a Client!</a>
+  <a href="users/new", class="btn btn-lg btn-primary" >Register as an Artist!</a>
+</div>
 
 
 <% flash.each do |key,value|  %>
     <div class="<%= key %>" > <%= value %> </div>
 <% end %>
 
-<%= link_to "Register", new_user_path  %>
-
-<% if current_user  %>
-  <%= link_to "Logout", destroy_session_path %>
-<% else %>
-    <%= link_to "Login", new_session_path %>
-<% end %>

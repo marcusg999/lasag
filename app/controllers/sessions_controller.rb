@@ -5,20 +5,23 @@ class SessionsController < ApplicationController
       @user = User.new
   end
 def create
-        user = User.where( email: user_params[:email]).first
-
-        if user && user.authenticate(user_params[:password])
-          session[:user_id] = user.id
-
-          flash[:success] = 'you are signed in!'
-          redirect_to users_path
-        else
-          #redirect back to the page
-          flash[:error] = 'unable to sign you in'
-
-          redirect_to new_session_path
-        end
+    user = User.find_by(email: params[:session][:email].downcase)
+    if user && user.authenticate(params[:session][:password])
+      log_in user
+      redirect_to user
+    else
+      flash.now[:danger] = 'Invalid email/password combination'
+      render 'new'
     end
+end
+
+def destroy
+    session[:user_id] = nil
+    redirect_to user_path
+    debugger
+
+  end
+end
 
 private
 
@@ -27,4 +30,4 @@ private
     end
 
 
-end
+

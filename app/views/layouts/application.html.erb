@@ -5,10 +5,24 @@
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+
 </head>
 <body>
+<header class="navbar navbar-fixed-top navbar-inverse">
 
-<%= yield %>
+      <div class="container">
 
+        <nav>
+          <ul class="nav navbar-nav navbar", >
+            <li><%= link_to "Home",   '/users' %></li>
+            <li><%= link_to "Log in", 'sessions/new' %></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="container">
+      <%= yield %>
+      <%= render 'layouts/footer' %>
+    </div>
 </body>
 </html>

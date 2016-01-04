@@ -1,18 +1,23 @@
 Rails.application.routes.draw do
 
-  root 'users#index', as: :users
 
-  get 'users/new' => 'users#new', as: :new_user
+root 'users#index'
 
-  post '/' => 'users#create'
+get 'users/new' => 'users#new'
 
-get 'sessions/new' => 'sessions#new', as: :new_session
+post 'user/create' => 'users#create'
+get 'users/:id' => 'users#show', as: :user
+
+get 'sessions/new' => 'sessions#new',as: :new_session
 
 post 'sessions/new' => 'sessions#create', as: :create_session
-get 'sessions/destroy' => 'sessions#destroy', as: :destroy_session
-get 'targets/' => 'targets#index', as: :targets
 
-
+get 'signup'  => 'users#new'
+get    'login'   => 'sessions#new'
+post   'login'   => 'sessions#create'
+delete 'logout'  => 'sessions#destroy'
+delete 'sessions/destroy' => 'sessions#destroy'
+resources :users
 
 end
 

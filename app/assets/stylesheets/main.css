@@ -8,17 +8,23 @@
 }
 
 body {
-    background-color: #280;
+    background: url('/assets/image2.jpg');
+    background-position: -99px 0;
 }
 
 h1 {
+    color: black;
     font-size: 80px;
     font-family: helvetica;
     text-align: center;
 }
 h2 {
+    color: black;
     font-size: 30px;
     text-align: center;
-
+}
+h3 {
+    color:white;
+    font-size: 20px;
 
 }
