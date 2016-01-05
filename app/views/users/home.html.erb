@@ -1,0 +1,13 @@
+
+<div class="center jumbotron">
+  <h2>LA StreetArt Gallery Presents</h2>
+  <h1>Writers Bench Collective</h1>
+
+  <a href="users/new", class="btn btn-lg btn-primary" >Register as a Client!</a>
+  <a href="users/new", class="btn btn-lg btn-primary" >Register as an Artist!</a>
+</div>
+
+
+<% flash.each do |key,value|  %>
+    <div class="<%= key %>" > <%= value %> </div>
+<% end %>

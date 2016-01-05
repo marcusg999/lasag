@@ -8,21 +8,12 @@
 
 </head>
 <body>
-<header class="navbar navbar-fixed-top navbar-inverse">
 
-      <div class="container">
-
-        <nav>
-          <ul class="nav navbar-nav navbar", >
-            <li><%= link_to "Home",   '/users' %></li>
-            <li><%= link_to "Log in", 'sessions/new' %></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
+    <%= render 'layouts/header' %>
     <div class="container">
       <%= yield %>
       <%= render 'layouts/footer' %>
+      <%= debug(params) if Rails.env.development? %>
     </div>
 </body>
 </html>
