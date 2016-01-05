@@ -1,5 +1,4 @@
 class User < ActiveRecord::Base
-  attr_accessor :name, :email
   has_attached_file :image, styles: { large: "990x990>", medium: "300x300>"}
   validates_attachment_content_type :image, content_type: /\Aimage\/.*\Z/
   has_many :artists
@@ -20,8 +19,5 @@ class User < ActiveRecord::Base
     BCrypt::Password.create(string, cost: cost)
   end
 end
-
-def contact
-  end
 
 

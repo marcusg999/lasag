@@ -12,14 +12,18 @@ body {
     background-position: -99px 0;
 }
 
+
 h1 {
-    color: black;
+
+    color: white;
     font-size: 80px;
-    font-family: helvetica;
+    font-family: Futura;
     text-align: center;
+    font-weight:bold;
+    text-shadow: 8px 8px 0px rgba(0,0,0,0.6), 4px 4px 8px rgba(0,0,0,0.2);
 }
 h2 {
-    color: black;
+    color: white;
     font-size: 30px;
     text-align: center;
 }
