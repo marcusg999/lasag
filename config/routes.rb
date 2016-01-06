@@ -21,8 +21,7 @@ get    'login'   => 'sessions#new'
 post   'login'   => 'sessions#create'
 delete 'logout'  => 'sessions#destroy'
 
-resources :index
-resources :show
+
 resources :users
 
 namespace :api do

@@ -13,9 +13,9 @@ module SessionsHelper
   end
 
    def remember(user)
-    user.remember
-    cookies.permanent.signed[:user_id] = user.id
-    cookies.permanent[:remember_token] = user.remember_token
+    # user.remember
+    # cookies.permanent.signed[:user_id] = user.id
+    # cookies.permanent[:remember_token] = user.remember_token
   end
   # Returns true if the given user is the current user.
   def current_user?(user)
