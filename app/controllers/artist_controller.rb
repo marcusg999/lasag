@@ -8,6 +8,7 @@ class ArtistController < ApplicationController
 
   def show
 
+
   end
 
   def edit

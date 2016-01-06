@@ -20,7 +20,12 @@ delete 'sessions/destroy' => 'sessions#destroy'
 get    'login'   => 'sessions#new'
 post   'login'   => 'sessions#create'
 delete 'logout'  => 'sessions#destroy'
-resources :users
 
-end
+resources :users
+namespace :api do
+    resources :artists, only: [:index, :show]
+  end
+
+    end
+
 
