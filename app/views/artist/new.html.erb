@@ -1,19 +1,99 @@
-//page for artists profile and portfolio
-<h1> Welcome Artists </h1>
 
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+</head>
+<body>
 <%= link_to ('Home'), users_path  %>
 
 
-<h2> Cryptik </h2>
-<center><%= image_tag "http://static1.1.sqspcdn.com/static/f/687444/23067818/1373299017867/street-artist-CRYPTIK-002.jpg?token=lPXtaOQ%2Bg2K1ZpLXVO2XakdNflo%3D" %></center>
-<center><%= image_tag "http://static1.squarespace.com/static/50334d5fe4b00d577d19b9a2/50a73e8ce4b02b289430e0a8/50a73ef1e4b050340ad2b9ad/1353137905715/Buddha2.jpg" %></center>
+<div class="container">
+  <p style="color:white;"> Click on the images to see it in full size:</p>
+  <h2 style="color:white;"> CYRPTIK Gallery</h2>
+  <a style="color:white;", href="http://www.CYRPTIK.com/"> CYRPTIK WebSite</a>
+  <div class="row">
+    <div class="col-md-4">
+      <a href="http://41.media.tumblr.com/1e44ecf4ec224014a3f206198043d763/tumblr_nbay03sDBb1rq77b7o1_500.jpg"  class="img-rounded">
+        <p style="color:white;">CYRPTIK</p>
+        <img src="http://41.media.tumblr.com/1e44ecf4ec224014a3f206198043d763/tumblr_nbay03sDBb1rq77b7o1_500.jpg"  style="width:350px;height:350px">
+      </a>
+    </div>
+    <div class="col-md-4">
+      <a href="http://static1.squarespace.com/static/50334d5fe4b00d577d19b9a2/50a73e8ce4b02b289430e0a8/50a73ef1e4b050340ad2b9ad/1353137905715/Buddha2.jpg" class="img-rounded">
+        <p style="color:white;">CYRPTIK</p>
+        <img src="http://static1.squarespace.com/static/50334d5fe4b00d577d19b9a2/50a73e8ce4b02b289430e0a8/50a73ef1e4b050340ad2b9ad/1353137905715/Buddha2.jpg" style="width:350px;height:350px">
+      </a>
+    </div>
+    <div class="col-md-4">
+      <a href="https://c2.staticflickr.com/8/7412/16216604078_b97e34c8bb.jpg" class="img-rounded">
+        <p style="color:white;">CYRPTIK</p>
+        <img src="https://c2.staticflickr.com/8/7412/16216604078_b97e34c8bb.jpg" style="width:350px;height:350px">
+      </a>
+    </div>
+  </div>
+</div>
+<div class="container">
 
-<h2> Mear1 </h2>
-<center><%= image_tag "https://c2.staticflickr.com/6/5202/5727786233_0a7419edec.jpg" %></center>
-<center><%= image_tag "https://newcentrist.files.wordpress.com/2012/11/mear1.jpeg?w=652" %></center>
+  <h2 style="color:white;">ABCNT Gallery</h2>
+  <a style="color:white;", href="http://abcnt.info/"> ABCNT WebSite</a>
+  <div class="row">
+    <div class="col-md-4">
+      <a href="https://abcnt.files.wordpress.com/2010/10/abcnt.jpg"  class="img-rounded">
+        <p style="color:white;">ABCNT</p>
+        <img src="https://abcnt.files.wordpress.com/2010/10/abcnt.jpg"  style="width:350px;height:350px">
+      </a>
+    </div>
+    <div class="col-md-4">
+      <a href="http://www.thedirtfloor.com/wp-content/uploads/2010/05/street-art-billboard-venice-beach-1.jpg" class="img-rounded">
+        <p style="color:white;">ABCNT</p>
+        <img src="http://www.thedirtfloor.com/wp-content/uploads/2010/05/street-art-billboard-venice-beach-1.jpg" style="width:350px;height:350px">
+      </a>
+    </div>
+    <div class="col-md-4">
+      <a href="http://www.isupportstreetart.com/wp-content/uploads/Stuff/street_art/ABCNT/abcnt-issa_2.jpg" class="img-rounded">
+        <p style="color:white;">ABCNT</p>
+        <img src="http://www.isupportstreetart.com/wp-content/uploads/Stuff/street_art/ABCNT/abcnt-issa_2.jpg" style="width:350px;height:350px">
+      </a>
+    </div>
+  </div>
+</div>
 
-<h2> ABCNT </h2>
-<center><%= image_tag "http://static1.1.sqspcdn.com/static/f/451085/13987935/1315148992717/ABCNT+Revilution.jpg?token=d%2F%2Bsb6UpW%2F2tb4hPCh7jYhy6C0U%3D" %></center>
-<center><%= image_tag "http://www.an-mag.com/wp-content/uploads/2012/04/abcnt3.jpg" %></center>
-<center><%= image_tag "http://www.isupportstreetart.com/wp-content/uploads/Stuff/street_art/ABCNT/abcnt-issa_2.jpg" %></center>
+<h2 style="color:white;">MEARONE Gallery</h2>
+  <a style="color:white;", href="http://mearone.com/"> MEARONE WebSite</a>
+  <div class="row">
+    <div class="col-md-4">
+      <a href="https://c2.staticflickr.com/6/5202/5727786233_0a7419edec.jpg"  class="img-rounded">
+        <p style="color:white;">MEARONE</p>
+        <img src="https://c2.staticflickr.com/6/5202/5727786233_0a7419edec.jpg"  style="width:350px;height:350px">
+      </a>
+    </div>
+    <div class="col-md-4">
+      <a href="https://newcentrist.files.wordpress.com/2012/11/mear1.jpeg?w=652" class="img-rounded">
+        <p style="color:white;">MEARONE</p>
+        <img src="https://newcentrist.files.wordpress.com/2012/11/mear1.jpeg?w=652" style="width:350px;height:350px">
+      </a>
+    </div>
+    <div class="col-md-4">
+      <a href="http://www.lataco.com/wp-content/uploads/Mear1Truth-800x600.jpg" class="img-rounded">
+        <p style="color:white;">MEARONE</p>
+        <img src="http://www.lataco.com/wp-content/uploads/Mear1Truth-800x600.jpg" style="width:350px;height:350px">
+      </a>
+    </div>
+  </div>
 
+
+
+</body>
+</html>
