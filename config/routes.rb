@@ -7,7 +7,7 @@ get 'users/index' => 'users#index'
 get 'users/new' => 'users#new'
 
 post 'user/' => 'users#create'
-get 'user/edit' => 'users#edit'
+get 'users/edit' => 'users#edit'
 get 'users/:id' => 'users#show', as: :user_show
 
 get 'signup'  => 'users#new'
@@ -29,7 +29,7 @@ get    'login'   => 'sessions#new'
 post   'login'   => 'sessions#create'
 delete 'logout'  => 'sessions#destroy'
 
-
+resources :sessions
 resources :users
 
 namespace :api do

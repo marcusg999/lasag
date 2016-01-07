@@ -50,6 +50,6 @@ client = Client.create ([{
   name: "DTLA_Lofts",
   image_content_type: "http://pauljohnston.com/wp-content/files_mf/006_436_wellington_w_603.jpg",
   location: "DTLA",
-  role: 2
+
   }])
 
