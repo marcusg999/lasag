@@ -1,7 +1,7 @@
 == README
 The Writers Bench is an application that serves as a liaison between Muralist and Business owners and clients seeking artists for projects. Both artists and clients are able to make profiles, create a gallery of images and a description of their needs and inspirations.  Clients upload photos of project types and or subjects, a description of what they desire and their budget.  Artists are able to then view projects available and place bids on projects competing for projects.
 
-The goal of this app is to fill the growing desire for Business owners and real estate developers to contact muralist. Businesses are slowly understanding that connecting to their community actually improves business and their ability to interact and even expand in the community especially i areas undergoing high gentrifacation.  
+The goal of this app is to fill the growing desire for Business owners and real estate developers to contact muralist. Businesses are slowly understanding that connecting to their community actually improves business and their ability to interact and even expand in the community especially in areas undergoing high gentrifacation.  
 
 The LA street art gallery approached me with this need and problem in mind.  Writers bench connection/collective is my solution to this problem.
 
