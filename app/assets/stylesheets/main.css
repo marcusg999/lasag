@@ -15,9 +15,9 @@ body {
 
 }
 mark {
-    background-color: #433;
-    color: white;
-    font-size: 30px;
+    background-color: white; opacity: .55;
+    color: black;
+    font-size: 18px;
 }
 
 

@@ -6,17 +6,17 @@
     <%= form_for(@user) do |f| %>
 
 
-      <%= f.label :name %>
+      <mark><%= f.label :name %></mark>
       <%= f.text_field :name, class: 'form-control' %>
 
-      <%= f.label :email %>
+      <mark><%= f.label :email %></mark>
       <%= f.email_field :email, class: 'form-control' %>
 
-      <%= f.label :password %>
+      <mark><%= f.label :password %></mark>
       <%= f.password_field :password, class: 'form-control' %>
 
-      <%= f.label :password_confirmation, "Confirmation" %>
-      <%= f.password_field :password_confirmation, class: 'form-control' %>
+      <mark><%= f.label :password_confirmation, "Confirmation" %></mark>
+      <%= f.password_field :password_confirmation, </mark>class: 'form-control' %>
 
       <%= f.submit "Save changes", class: "btn btn-primary" %>
 
