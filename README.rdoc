@@ -6,8 +6,6 @@ The goal of this app is to fill the growing desire for Business owners and real 
 The LA street art gallery approached me with this need and problem in mind.  Writers bench connection/collective is my solution to this problem.
 
 
-
-
 WIREFRAMES: http://imgur.com/a/oBqyV
 
 link to page:https://writers-bench-connection.herokuapp.com/
@@ -15,31 +13,3 @@ link to page:https://writers-bench-connection.herokuapp.com/
 Trello: https://trello.com/b/GA3QfHrw/project-2
 
 
-
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
