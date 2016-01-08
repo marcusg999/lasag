@@ -7,7 +7,7 @@ get 'users/' => 'users#index'
 get 'users/new' => 'users#new'
 
 post 'user/' => 'users#create'
-get 'users/edit' => 'users#edit'
+
 get 'users/:id' => 'users#show', as: :user_show
 
 get 'signup'  => 'users#new'
