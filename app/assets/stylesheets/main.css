@@ -24,11 +24,12 @@ mark {
 h1 {
 
     color: white;
-    font-size: 80px;
-    font-family:'n__c_e_tagregular';
+    font-size: 90px;
+    font-family:'futura';
     text-align: center;
-    font-weight:bold;
-    /*text-shadow: 8px 8px 0px rgba(0,0,0,0.6), 4px 4px 8px rgba(0,0,0,0.2);*/
+    font-weight:;
+    font-style: italic;
+    text-shadow: 8px 8px 0px rgba(0,0,0,0.6), 4px 4px 8px rgba(0,0,0,0.2);
 }
 
 
