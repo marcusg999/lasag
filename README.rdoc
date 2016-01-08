@@ -11,7 +11,7 @@ The LA street art gallery approached me with this need and problem in mind.  Wri
 
 
 
-
+WIREFRAMES CAN BE FOUND IN ASSETS FOLDER IN THE WIREFRAMES FOLDER*
 
 link to page:https://writers-bench-connection.herokuapp.com/
 
