@@ -2,7 +2,7 @@ Rails.application.routes.draw do
 
 root 'users#home'
 
-get 'users/index' => 'users#index'
+get 'users/' => 'users#index'
 
 get 'users/new' => 'users#new'
 

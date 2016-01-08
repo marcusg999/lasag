@@ -54,8 +54,8 @@ module SessionsHelper
   # Logs out the current user.
   def log_out
     forget(current_user)
-    session.delete(:user_id)
-    @current_user = nil
+    session.delete
+
     end
   end
   def redirect_back_or(default)
