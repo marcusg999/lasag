@@ -23,8 +23,6 @@ module Lasag
     # Do not swallow errors in after_commit/after_rollback callbacks.
     config.active_record.raise_in_transactional_callbacks = true
     config.middleware.use ActionDispatch::Flash
-    config.assets.enabled = true
- config.assets.paths << "#{Rails.root}/app/assets/fonts"
- {"mode":"basic","formats":["ttf","woff","woff2","eotz"],"tt_instructor":"default","fix_gasp":"xy","fix_vertical_metrics":"Y","metrics_ascent":"","metrics_descent":"","metrics_linegap":"","add_spaces":"Y","add_hyphens":"Y","fallback":"none","fallback_custom":"100","options_subset":"basic","subset_custom":"","subset_custom_range":"","subset_ot_features_list":"","css_stylesheet":"stylesheet.css","filename_suffix":"-webfont","emsquare":"2048","spacing_adjustment":"0"}
+
   end
 end
