@@ -5,6 +5,7 @@ The goal of this app is to fill the growing desire for Business owners and real 
 
 The LA street art gallery approached me with this need and problem in mind.  Writers bench connection/collective is my solution to this problem.
 
+http://lastreetartgallery.com/
 
 WIREFRAMES: http://imgur.com/a/oBqyV
 
