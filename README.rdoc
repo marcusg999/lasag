@@ -1,4 +1,21 @@
 == README
+The Writers Bench is an application that serves as a leison between Muralist and Business owners and clients seeking artists for projects. Both artists and clients are able to make profiles, create a gallery of images and a description of their needs and inspirations.  Clients upload photos of project types and or subjects, a description of what they desire and their budget.  Artists are able to then view projects available and place bids on projects competing for projects.
+
+
+
+
+
+
+
+
+
+
+
+
+Trello: https://trello.com/b/GA3QfHrw/project-2
+
+
+
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
