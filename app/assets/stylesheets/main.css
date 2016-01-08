@@ -8,8 +8,16 @@
 }
 
 body {
+
     background: url('/assets/image2.jpg');
     background-position: -99px 0;
+    background-attachment: fixed;
+
+}
+mark {
+    background-color: #433;
+    color: white;
+    font-size: 30px;
 }
 
 
@@ -31,4 +39,7 @@ h3 {
     color:white;
     font-size: 20px;
 
+}
+.container {
+    background: rgba(0,0,0,.4);
 }
