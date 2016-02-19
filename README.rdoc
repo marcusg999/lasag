@@ -5,6 +5,7 @@ The goal of this app is to fill the growing desire for Business owners and real 
 
 The LA street art gallery approached me with this need and problem in mind.  Writers bench connection/collective is my solution to this problem.
 
+This app was made in 4 days during my time in the General Assembly WDI program.
 http://lastreetartgallery.com/
 
 WIREFRAMES: http://imgur.com/a/oBqyV
